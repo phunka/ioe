@@ -1,0 +1,9 @@
+# Site settings
+title: IOE entrance results read only API
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/ioe" # the subpath of your site, e.g. /blog/
+url: "https://phunka.github.io/ioe" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
