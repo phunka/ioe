@@ -1,0 +1,14 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<results>
+    {% for result in site.data.2069 %}
+        <result>
+            <roll_no>{{ result.roll_no }}</roll_no>
+            <student_name>{{ result.student_name }}</student_name>
+            <gender>{{ result.gender }}</gender>
+            <score_percent>{{ result.score_percent }}</score_percent>
+            <rank>{{ result.rank }}</rank>
+        </result>
+    {% endfor %}
+</results>
