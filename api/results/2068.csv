@@ -1,0 +1,5 @@
+---
+---
+roll_no,student_name,gender,score_percent,rank
+{% for result in site.data.2068 %}{{ result.roll_no }},{{ result.student_name }},{{ result.gender }},{{ result.score_percent }},{{ result.rank }}
+{% endfor %}
