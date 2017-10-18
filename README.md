@@ -1,4 +1,4 @@
-# ioe
+# ioe [![goodtables.io](https://goodtables.io/badge/github/amitness/ioe.svg)](https://goodtables.io/github/amitness/ioe)
 
 This repository contains IOE entrance result data in CSV format.
 
