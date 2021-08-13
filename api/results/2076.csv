@@ -1,0 +1,5 @@
+---
+---
+roll_no,student_name,gender,district,rank,remarks
+{% for result in site.data.2076 %}{{ result.roll_no }},{{ result.student_name }},{{ result.gender }},{{ result.district }},{{ result.rank }},{{ result.remarks }}
+{% endfor %}

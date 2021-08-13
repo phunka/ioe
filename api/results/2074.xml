@@ -2,7 +2,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <results>
-    {% for result in site.data.2075 %}
+    {% for result in site.data.2074 %}
         <result>
             <roll_no>{{ result.roll_no }}</roll_no>
             <student_name>{{ result.student_name }}</student_name>
